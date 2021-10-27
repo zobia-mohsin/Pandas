@@ -90,6 +90,5 @@ print("7. What is the total sales for the products in the above new dataframe? (
 new_11500_12000_totalsales = new_11500_12000.iloc[:, 2]
 print("The total sales for the new dataframe are")
 print(new_11500_12000_totalsales)
-
 total_sales_new = new_11500_12000["Total Sale"].sum()
 print("The total sales for all produces in this dataframe is", total_sales_new)
